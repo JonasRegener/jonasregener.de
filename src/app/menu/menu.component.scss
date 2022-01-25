@@ -1,0 +1,26 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-size: 1.2em;
+        &:hover {
+            color: rgb(229, 231, 116);
+        }
+    }
+    img {
+        height: 100px;
+    }
+}
