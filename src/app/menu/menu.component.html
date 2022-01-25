@@ -1,10 +1,18 @@
-<header>
-    <img src="assets/img/logo-readable.png">
-    <div>
-        <a href="#">Home</a>
+<header [class.headerDark]="darkMode">
+
+
+
+
+    <div class="container-logo">
+        <img *ngIf="!darkMode" routerLink="/" src="assets/img/logo-readable.png">
+        <img *ngIf="darkMode" routerLink="/" src="assets/img/logo-black.png">
+        <p> Created my free logo at LogoMakr.com</p>
+    </div>
+    <div [class.darkLinks]="darkMode">
+        <a href="/">Home</a>
         <a href="#">About me</a>
         <a href="#">Projects</a>
-        <a href="#">Impressum</a>
+        <a routerLink="/imprint">Imprint</a>
 
     </div>
 </header>
