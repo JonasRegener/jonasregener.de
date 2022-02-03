@@ -4,15 +4,15 @@
 
 
     <div class="container-logo">
-        <img *ngIf="!darkMode" routerLink="/" src="assets/img/logo-readable.png">
-        <img *ngIf="darkMode" routerLink="/" src="assets/img/logo-black.png">
-        <p> Created my free logo at LogoMakr.com</p>
+        <img *ngIf="!darkMode" routerLink="/" src="assets/img/white_image.png">
+        <img *ngIf="darkMode" routerLink="/" src="assets/img/black_image.png">
+    
     </div>
     <div [class.darkLinks]="darkMode">
         <a routerLink="/">Home</a>
         <a routerLink="/data-protection">Data protection</a>
         <a href="#">About Me</a> 
-        <a href="#">Projects</a> 
+        <a href="/projects">Projects</a> 
         <a routerLink="/imprint">Imprint</a>
 
     </div>
