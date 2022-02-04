@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProjectsComponent } from './projects/projects.component';
     MenuComponent,
     ImprintComponent,
     DataProtectionComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,28 @@
+.aboutMeImgTxtBox {
+    display: flex;
+}
+
+.aboutMe {
+    top: 120px;
+    left: 0;
+    max-height: 80vh;
+    
+    
+    img {
+        margin-left: 5vw;
+        border-left: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        border-right: 1px solid lightgrey;
+        height: 80vh;
+        width: 43vw;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+}
+
+.aboutMeTxt {
+    background-color: lightgray;
+    width: 43vw;
+    
+}
