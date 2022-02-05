@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
   images = ['pexels-negative-space-34153.jpg', 'pexels-jéshoots-218863.jpg', 'pexels-negative-space-169573.jpg'];
-  headlines = ["Hello", "Hallo", "Hey"]
+  headlines = ["Hallo, hier entsteht meine Internetseite", "Mein Portfolio wird momentan noch bearbeitet", "In 'About me' findest du erste Informationen"]
   currentImage = 0;
   showImage = true;
 
