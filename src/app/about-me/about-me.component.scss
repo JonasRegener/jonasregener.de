@@ -9,12 +9,8 @@
     
     
     img {
-        margin-left: 5vw;
-        border-left: 1px solid lightgrey;
-        border-bottom: 1px solid lightgrey;
-        border-right: 1px solid lightgrey;
         height: 80vh;
-        width: 43vw;
+        width: 45vw;
         object-fit: cover;
         overflow: hidden;
     }
@@ -22,7 +18,26 @@
 }
 
 .aboutMeTxt {
-    background-color: lightgray;
-    width: 43vw;
+    background-color: rgb(242,242,242);
+    width: 46vw;
+    text-align: center;
+
+    span {
+        
+        border-bottom: 3px solid black;
+        padding-bottom: 5px;
+      
+    }
     
+}
+
+.aboutMeHeader {
+    font-size: 36px;
+
+}
+
+.underline-transparent {
+    color: transparent;
+    border-bottom: 1px solid black !important;
+    padding-bottom: 5px;
 }
