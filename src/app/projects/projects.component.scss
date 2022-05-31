@@ -1,0 +1,62 @@
+.container-pf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf {
+    display: flex;
+    width: 40vw;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanban {
+    background-image: url("/assets/img/kanban.png");
+
+    background-size: cover;
+    height: 45vh;
+    width: 40vw;
+    margin-bottom: 100px;
+}
+
+.text-pf {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 45vh;
+    width: 40vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.own-page {
+    background-image: url("/assets/img/own-page.jpg");
+
+    background-size: cover;
+    height: 45vh;
+    width: 40vw;
+    margin-bottom: 100px;
+}
+
+.rof {
+    background-image: url("/assets/img/rof-laptop.jpg");
+
+    background-size: cover;
+    height: 45vh;
+    width: 40vw;
+    margin-bottom: 100px;
+}
+
+.poke {
+    background-image: url("/assets/img/handy-poke.png");
+
+    background-size: cover;
+    height: 45vh;
+    width: 40vw;
+    margin-bottom: 100px;
+}
