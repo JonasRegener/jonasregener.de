@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(400px, 1fr));
     grid-gap: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 
@@ -46,7 +46,7 @@
         inset: 0;
         font-size: 24px;
         padding: 16px;
-        background: rgba(255, 255, 255, .4);
+        background: rgba(255, 255, 255, .67);
         display: flex;
         justify-content: center;
         align-items: center;
