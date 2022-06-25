@@ -12,7 +12,9 @@ const routes: Routes = [
   {path: 'imprint', component: ImprintComponent },
   {path: 'data-protection', component: DataProtectionComponent },
   {path: 'projects', component: ProjectsComponent },
-  {path: 'about-me', component: AboutMeComponent }
+  {path: 'about-me', component: AboutMeComponent },
+/*   {path: 'ringoffire/game/:id', component: AboutMeComponent }, */
+
 
 ];
 
