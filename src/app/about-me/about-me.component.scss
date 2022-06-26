@@ -1,5 +1,6 @@
 .aboutMeImgTxtBox {
     display: flex;
+    padding-bottom: 100px;
 }
 
 .margin {
@@ -29,14 +30,26 @@
         
         border-bottom: 3px solid black;
         padding-bottom: 5px;
-      
+
     }
-    
+    p {
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+          }
+          @media screen and (max-width: 600px) {
+            font-size: 10px;
+          }
+    }
 }
 
 .aboutMeHeader {
     font-size: 36px;
-
+    @media screen and (max-width: 900px) {
+        font-size: 24px;
+      }
+      @media screen and (max-width: 600px) {
+        font-size: 16px;
+      }
 }
 
 .underline-transparent {
