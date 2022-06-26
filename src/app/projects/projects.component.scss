@@ -1,15 +1,28 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(400px, 1fr));
     grid-gap: 40px;
-    margin-bottom: 50px;
+      margin-bottom: 50px;
+    @media screen and (max-width: 950px) {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+      }
+      @media screen and (min-width: 951px) {
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+      }
+      
+  
+      
+}
+.column {
+    flex-direction: column;
 }
 
-
 .img-wrapper {
+    text-align: center;
     position: relative;
+    display: flex;
     overflow: hidden;
-
+justify-content: center;
+align-items: center;
     img {
         display: block;
         width: 100%;
@@ -50,7 +63,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
+        cursor: pointer;
 
     }
 

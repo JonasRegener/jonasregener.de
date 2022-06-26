@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
   images = ['pexels-negative-space-34153.jpg', 'pexels-jéshoots-218863.jpg', 'pexels-negative-space-169573.jpg'];
-  headlines = ["Hallo, hier entsteht meine Internetseite", "Mein Portfolio wird momentan noch bearbeitet", "In 'About me' findest du erste Informationen"]
+  headlines = ["Willkommen auf meiner Internetseite", "Mein Name ist Jonas Regener, in 'About me' kannst du mehr über mich erfahren", "Unter 'Projekte' findest du kleine Praxisbeispiele meiner Fähigkeiten"]
   currentImage = 0;
   showImage = true;
 
@@ -25,7 +25,7 @@ export class SlideshowComponent implements OnInit {
       setTimeout(() => {
         this.showImage = true;
       }, 10);
-    }, 8000);
+    }, 3000);
 
   }
 

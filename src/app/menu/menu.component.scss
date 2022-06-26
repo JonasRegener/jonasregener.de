@@ -5,7 +5,7 @@ header {
     top: 0;
     height: 120px;
     padding-left: 5vw;
-    padding-right: 5vw;
+    padding-right: 7vw;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -16,11 +16,19 @@ header {
         color: white;
         text-decoration: none;
         margin-left: 32px;
-        
+        word-break:unset;
         font-size: 1.2em;
         &:hover {
             color: rgb(229, 231, 116);
         }
+        @media screen and (max-width: 850px) {
+            font-size: 1em;
+            margin-left: 20px;
+          }
+          @media screen and (max-width: 400px) {
+            font-size: 0.75em;
+            margin-left: 8px;
+          }
     }
     img {
         height: 140px;

@@ -36,7 +36,13 @@
         font-size: 2em;
         border-left: 8px solid yellow;
         margin-left: 140px;
-    
+        @media screen and (max-width: 900px) {
+            font-size: 1.5em;
+            padding-left: 0.0em;
+            margin-left: 20px;
+          }
+          
+       
     }
     
     }
